@@ -9,7 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write      # To reopen issues and comment
-      projects: read     # To read dependency data from project fields
       contents: read     # To access github-script
 
     steps:
